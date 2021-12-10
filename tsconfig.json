@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    /* 配置项参考 https://jkchao.github.io/typescript-book-chinese */
+    /* project/compilationContext.html#%E5%9F%BA%E7%A1%80 */
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    "incremental": true,
+    "target": "es2016",
+    "lib": ["dom", "dom.iterable", "esnext"], // 指定要包含在编译中的库文件
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* 严格的类型检查 */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    // "rootDir": "./",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "removeComments": true, // 删除编译后的所有的注释
+    "sourceRoot": "",
+    "newLine": "lf",
+    // 指定调试器应该找到映射文件而不是生成文件的位置
+    "mapRoot": "",
+    "isolatedModules": true, // 将每个文件作为单独的模块
+    "esModuleInterop": true,
+    // "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictFunctionTypes": true,
+    // "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    // "useUnknownInCatchVariables": true,
+    "noUnusedLocals": false, // 有未使用的变量时，抛出错误
+    "noUnusedParameters": false, // 有未使用的参数时，抛出错误
+    "noImplicitReturns": false, // 函数中如果没有返回值，抛出错误
+    // 允许从没有设置默认导出的模块中默认导入
+    "allowSyntheticDefaultImports": true,
+
+    "paths": {
+      "@/*": ["src/*"],
+      "@src/*": ["src/*"],
+      "@comp/*": ["src/components/*"],
+      "@static/*": ["src/static/*"],
+      "@scss/*": ["src/scss/*"],
+    },
+  },
+  "include": ["src"],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "public"
+  ],
+}
