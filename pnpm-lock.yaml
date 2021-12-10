@@ -7,6 +7,9 @@ specifiers:
   '@babel/preset-react': ^7.16.0
   '@babel/preset-typescript': ^7.16.0
   '@babel/register': ^7.16.0
+  '@fontsource/open-sans': ^4.5.2
+  '@fontsource/ubuntu': ^4.5.0
+  '@fontsource/ubuntu-mono': ^4.5.0
   '@types/react': ^17.0.37
   '@types/react-dom': ^17.0.11
   '@types/react-router-dom': ^5.3.2
@@ -46,6 +49,9 @@ specifiers:
   webpack-merge: ^5.8.0
 
 dependencies:
+  '@fontsource/open-sans': registry.npmmirror.com/@fontsource/open-sans/4.5.2
+  '@fontsource/ubuntu': registry.npmmirror.com/@fontsource/ubuntu/4.5.0
+  '@fontsource/ubuntu-mono': registry.npmmirror.com/@fontsource/ubuntu-mono/4.5.0
   react: registry.npmmirror.com/react/18.0.0-rc.0-next-f2a59df48-20211208
   react-dom: registry.npmmirror.com/react-dom/18.0.0-rc.0-next-f2a59df48-20211208_c922cd3aaa140cbe53b4f338952a2f59
 
@@ -6393,6 +6399,24 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  registry.npmmirror.com/@fontsource/open-sans/4.5.2:
+    resolution: {integrity: sha1-aVNlADXVtCvmRQE7FGVUTQr0nX0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@fontsource/open-sans/download/@fontsource/open-sans-4.5.2.tgz}
+    name: '@fontsource/open-sans'
+    version: 4.5.2
+    dev: false
+
+  registry.npmmirror.com/@fontsource/ubuntu-mono/4.5.0:
+    resolution: {integrity: sha1-Of5Vkh3PPqeFgP9ntQFfJEcaLms=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@fontsource/ubuntu-mono/download/@fontsource/ubuntu-mono-4.5.0.tgz}
+    name: '@fontsource/ubuntu-mono'
+    version: 4.5.0
+    dev: false
+
+  registry.npmmirror.com/@fontsource/ubuntu/4.5.0:
+    resolution: {integrity: sha1-E3APLjS43q2ck1hQ5e8mrdnnDMk=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@fontsource/ubuntu/download/@fontsource/ubuntu-4.5.0.tgz}
+    name: '@fontsource/ubuntu'
+    version: 4.5.0
+    dev: false
 
   registry.npmmirror.com/@humanwhocodes/config-array/0.9.2:
     resolution: {integrity: sha1-aL5VxzcCMAnfxf4kXVEYG7ZHaRQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@humanwhocodes/config-array/download/@humanwhocodes/config-array-0.9.2.tgz}
