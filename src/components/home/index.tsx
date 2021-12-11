@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Img60 from '@static/image/60.jpg';
 import Beast from '@static/icon/beast.png';
@@ -10,6 +11,7 @@ const Home = (props: IProps, state: IState) => {
   return (
     <section>
       <h1>****** Home Page ******</h1>
+      <p><Link to="/setting">Setting Page</Link></p>
       <p>AWS Announces Construct Hub and New Version of Development Kit at re:Invent 2021</p>
       <p>AWS Announces Construct Hub and New Version of Development Kit at re:Invent 2021</p>
       <p>AWS Announces Construct Hub and New Version of Development Kit at re:Invent 2021</p>

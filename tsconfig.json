@@ -49,6 +49,7 @@
       "@/*": ["src/*"],
       "@src/*": ["src/*"],
       "@comp/*": ["src/components/*"],
+      "@con/*": ["src/container/*"],
       "@static/*": ["src/static/*"],
       "@scss/*": ["src/scss/*"],
     },

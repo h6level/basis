@@ -47,6 +47,7 @@ module.exports = {
       '@': path.join(__dirname, '../src'),
       '@src': path.join(__dirname, '../src'),
       '@comp': path.join(__dirname, '../src/components'),
+      '@con': path.join(__dirname, '../src/container'),
       '@static': path.join(__dirname, '../src/static'),
       '@scss': path.join(__dirname, '../src/scss'),
     },

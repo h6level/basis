@@ -69,7 +69,9 @@
   "dependencies": {
     "@fontsource/open-sans": "^4.5.2",
     "@fontsource/ubuntu": "^4.5.0",
+    "@fontsource/ubuntu-mono": "^4.5.0",
     "react": "^18.0.0-beta-24dd07bd2-20211208",
-    "react-dom": "^18.0.0-beta-24dd07bd2-20211208"
+    "react-dom": "^18.0.0-beta-24dd07bd2-20211208",
+    "react-router-dom": "^6.1.0"
   }
 }
